@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class ChallengeEmail {
 
-	public static String input() {
+	public static String input(String request) {
 		Scanner input =  new Scanner(System.in);
-		System.out.print("ID: ");
+		System.out.print(request);
 		String s = input.nextLine();
 		input.close();
 		return s;
@@ -15,7 +15,7 @@ public class ChallengeEmail {
 	public static String fetchHTML() {
 		String s = null;
 		try {
-			URL urlID = new URL("https://www.ecs.soton.ac.uk/people/"+input());
+			URL urlID = new URL("https://www.ecs.soton.ac.uk/people/"+input("ID: ));
 			Scanner sc = new Scanner(urlID.openStream());
 			boolean stopFlag = false;
 			while(!stopFlag) {
