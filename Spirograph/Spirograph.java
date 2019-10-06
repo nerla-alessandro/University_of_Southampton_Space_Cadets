@@ -14,6 +14,7 @@ public class Spirograph {
         f.add(new MyPanel());
         f.pack();
         f.setVisible(true);
+	f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
 
