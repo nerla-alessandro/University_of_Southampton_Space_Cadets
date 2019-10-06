@@ -32,7 +32,7 @@ public class ChallengeEmail {
 		
 	}
 	
-	public static String fetchName(String s) { //Snips the name and title of the person from the "<title> HTML tag
+	public static String fetchName(String s) { //Snips the name and title of the person from the "<title>" HTML tag
 		s = (String) s.subSequence(s.indexOf('>')+1, s.indexOf('|')-1);
 		return s;
 	}
