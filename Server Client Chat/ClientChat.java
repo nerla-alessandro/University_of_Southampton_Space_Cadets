@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class ClientChat {
 	
-	String hostName; //localhost is the server is hosted on your PC
+	String hostName; //localhost if the server is hosted on your PC
 	int portNumber; //Port through which you connect to the server
 	
 	public ClientChat(String hostName, int portNumber) {
