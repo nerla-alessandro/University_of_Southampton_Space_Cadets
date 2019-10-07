@@ -34,7 +34,7 @@ class spiroPanel extends JPanel {
         super.paintComponent(g);       
         
         int lastX = (int) (R + r - O)+centreX; //Sets starting point (x-axis)
-		int lastY = centreY; //Sets starting point (y-axis)
+	int lastY = centreY; //Sets starting point (y-axis)
         int nextX;
         int nextY;
         for (int i = 0; i < 10000; i++) {
