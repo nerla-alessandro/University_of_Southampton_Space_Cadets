@@ -1,5 +1,5 @@
 /*
- * The way that this program executes BareBones code is inspired by the Classic CISC Pipeline:
+ * The way that this program executes BareBones code is inspired by the Classic RISC Pipeline:
  * 
  * 		1- Instruction Fetch
  * 		2- Instruction Decode
