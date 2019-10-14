@@ -4,7 +4,7 @@
  * 		1- Instruction Fetch
  * 		2- Instruction Decode
  *		3- Execute
- *		4- Memory Access [Skipped]
+ *		4- Memory Access
  *		5- Writeback
  * 
  * The program starts with 100 Instruction Memory Addresses
